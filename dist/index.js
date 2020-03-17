@@ -22,6 +22,7 @@ mongoose_1.default.connect('mongodb://localhost:27017/fotosgram', {
     }
     console.log("Base de datos online");
 });
+mongoose_1.default.set('useFindAndModify', false);
 //Levantar express
 server.start(() => {
     console.log(`Servidor corriendo en puerto ${server.port}`);
