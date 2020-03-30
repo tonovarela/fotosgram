@@ -23,6 +23,6 @@ class Token {
         });
     }
 }
+exports.default = Token;
 Token.seed = 'SEED-APP-SECRET';
 Token.caducidad = '30d';
-exports.default = Token;
